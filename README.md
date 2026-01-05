@@ -45,8 +45,8 @@ Data visualization was created using Tableau with different charts to highlight 
 
 **Features**:
 1.	Bar Chart: 
-o	Shows seasonal patterns in sales, identifying high-demand months.
-o	Displays total revenue per product line to understand product performance.
+- Shows seasonal patterns in sales, identifying high-demand months.
+- Displays total revenue per product line to understand product performance.
 2.	Stacked Bar Chart: Highlights sales contributions by customer type and gender.
 3.	Pie Chart: Shows preferences for payment methods like Cash, Credit Card, and Ewallet.
 4.	Tree Map Chart: Visualizes customer ratings for each product line to gauge satisfaction.
@@ -67,16 +67,16 @@ o	Displays total revenue per product line to understand product performance.
 
 - Data Transformation
 1.	Date and Time Standardization:
-o	Converted Date and Time columns into a unified timestamp format.
-o	Outcome: Created a new column with standardized date-time data for consistent time-based analysis.
+- Converted Date and Time columns into a unified timestamp format.
+- Outcome: Created a new column with standardized date-time data for consistent time-based analysis.
 
 - Data Cleaning and Preprocessing
 1.	Missing Values:
-o	Checked for missing values in critical columns like Quantity, Unit_price, and Total.
-o	Outcome: No missing values were found in key columns.
+- Checked for missing values in critical columns like Quantity, Unit_price, and Total.
+- Outcome: No missing values were found in key columns.
 2.	Outliers in Rating:
-o	Removed extreme ratings below 2 or above 9.5 to ensure data integrity.
-o	Outcome: 71 outlier rows were removed.
+- Removed extreme ratings below 2 or above 9.5 to ensure data integrity.
+- Outcome: 71 outlier rows were removed.
 
 *You can access the SQL scripts file [here](https://github.com/Cyborg4004/Sales_Analysis-and-Forecasting/blob/main/Sales_Analysis.sql)*
 
